@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Mental Health Wellness</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <a href="#">Mental Health Wellness</a>
+        </div>
+        <nav class="menu">
+            <a href="index.html">Home</a>
+            <a href="aboutus.html" >About Us</a>
+            <a href="features.html">Our Features</a>
+            <a href="contactus.html" class="active">Contact Us</a>
+            <a href="signup.html" class="signup">Sign Up</a>
+        </nav>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    
+    </header>
+
+    <section class="contact-section">
+        <h1>Contact Us</h1>
+        <p>Please fill in the form to contact us</p>
+        <hr>
+
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="firstName">Full Name</label>
+                <div class="name-inputs">
+                    <input type="text" id="firstName" placeholder="First Name" required>
+                    <input type="text" id="lastName" placeholder="Last Name" required>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" placeholder="Your email address" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" placeholder="Your message" rows="5" required></textarea>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+</body>
+</html>

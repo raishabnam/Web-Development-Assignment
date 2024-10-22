@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Wellness</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <a href="#">Mental Health Wellness</a>
+        </div>
+        <nav class="menu">
+            <a href="index.html" class="active">Home</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="features.html">Our Features</a>
+            <a href="contactus.html"> Contact Us</a>
+            <a href="signup.html" class="signup">Sign Up</a>
+        </nav>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    
+    </header>
+
+
+    <main class="main-section">
+        <h1>Empowering Your Mental Wellness</h1>
+        <div class="image-section">
+            <img src="images/Homepage.jpg" alt="Mental Health Image">
+        </div>
+        <p>Join us in making a positive impact on mental health, one step at a time.</p>
+        <div class="action-buttons">
+            <a href="signup.html">Learn More & Sign Up</a>
+        </div>
+    </main>
+    <script>
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            document.querySelector('.menu').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
